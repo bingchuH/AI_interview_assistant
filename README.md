@@ -61,6 +61,7 @@ project_root/
 ### gpt_interaction.py
 
 该模块负责与Azure OpenAI服务交互，通过GPT模型生成基于用户语音输入的响应。主要功能包括管理对话历史记录并生成上下文相关的AI回复。
+一些prompt也放在里面了。
 
 ### stt.py
 
@@ -69,4 +70,3 @@ project_root/
 ### transparent_log_window.py
 
 这个模块实现了一个透明的日志窗口，用于实时显示识别的文本内容。通过Tkinter库实现简单的UI。
-
