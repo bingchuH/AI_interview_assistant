@@ -36,9 +36,9 @@ project_root/
    记得是在同一个订阅组内创建OpenAI和stt服务，这样两个服务的ENDPOINT是一样的，如果分开创建运行代码会报错。
    
    AZURE_OPENAI_API_KEY  
-   AZURE_OPENAI_ENDPOINT （一串url）
+   AZURE_OPENAI_ENDPOINT （一串url）  
    SPEECH_KEY  
-   SPEECH_REGION （仅地区，如eastus、eastasia）
+   SPEECH_REGION （仅地区，如eastus、eastasia）  
    
 4. **安装依赖**
    ```bash
