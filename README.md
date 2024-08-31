@@ -35,9 +35,14 @@ project_root/
    AZURE_OPENAI_API_KEY  
    AZURE_OPENAI_ENDPOINT  
    SPEECH_KEY  
-   SPEECH_REGION  
+   SPEECH_REGION
+   
+4. **安装依赖**
+   ```bash
+   pip install -r requirements.txt
+   ```
 
-3. **启动应用**
+5. **启动应用**
 
    在终端中运行以下命令启动AI面试助手：
 
@@ -47,7 +52,7 @@ project_root/
 
    该命令将启动语音识别服务，并弹出一个透明窗口来显示识别的语音文本。
 
-4. **与AI助手交互**
+6. **与AI助手交互**
 
    - **重置文本**: 按下`空格键`可重置当前识别的文本。
    - **提交并生成响应**: 按下`回车键`将当前识别的文本发送给GPT模型，并获取AI的响应。
