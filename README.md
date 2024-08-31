@@ -30,12 +30,15 @@ project_root/
    [参考教程](https://blog.csdn.net/m0_71858447/article/details/135656444)  
    [Azure工作台](https://portal.azure.com/#home)  
    [Azure stt 文档](https://learn.microsoft.com/zh-cn/azure/ai-services/speech-service/speech-to-text)  
-   
+
 2. **配置环境变量**  
+
+   记得是在同一个订阅组内创建OpenAI和stt服务，这样两个服务的ENDPOINT是一样的，如果分开创建运行代码会报错。
+   
    AZURE_OPENAI_API_KEY  
-   AZURE_OPENAI_ENDPOINT  
+   AZURE_OPENAI_ENDPOINT （一串url）
    SPEECH_KEY  
-   SPEECH_REGION
+   SPEECH_REGION （仅地区，如eastus、eastasia）
    
 4. **安装依赖**
    ```bash
